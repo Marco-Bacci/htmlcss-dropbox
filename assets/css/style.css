@@ -39,7 +39,11 @@ h2 {
 p {
   margin-bottom: 20px;
 }
-
+.col-33 hr{
+  width: 30%;
+  margin: 40px auto 50px 0px;
+}
+   
 
 /*---------------------------------------------------------*/
 .container {
@@ -175,6 +179,7 @@ header {
 }
   
   
+  
 
 .col-100 {
   width: calc(100% - 15px);
@@ -187,6 +192,9 @@ header {
   text-align: center;
   padding: 10px;
   border-bottom: 1px solid black;
+}
+.col-33 li{
+  margin-bottom: 20px;
 }
 
 
