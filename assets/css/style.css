@@ -119,6 +119,9 @@ section {
 .mr-50 {
   margin-right: 50px;
 }
+.grey-border{
+  border: 1px solid lightgray;
+}
 
 
 
@@ -184,9 +187,10 @@ header {
 .col-33 {
   position: relative;
   width: calc(750px/3 - 15px);
-  border: 1px solid lightgray;
-
 }
+  
+
+
 
 .col-100 {
   position: relative;
