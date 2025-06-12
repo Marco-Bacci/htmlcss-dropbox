@@ -35,10 +35,9 @@ h2 {
   margin-bottom: 40px;
 }
 
-.col-33, .col-100 h3 {
+h3{
   padding: 70px 0px 20px 0px;
 }
-
 p {
   margin-bottom: 20px;
 }
@@ -189,9 +188,6 @@ header {
 
 }
 
-
-
-
 .col-100 {
   position: relative;
   width: calc(100% - 15px);
@@ -213,10 +209,17 @@ header {
 .col-33 li {
   margin-bottom: 20px;
 }
+/*una riga e 6 colonne*/
 
-
+.col-33 img{
+  width: 100%;
+}
 
 
 
 
 /*----------------debug----------------------*/
+.h-500-orange{
+  height: 500px;
+  background-color: orange;
+}
