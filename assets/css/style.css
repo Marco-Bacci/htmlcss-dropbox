@@ -5,7 +5,7 @@
 }
 body{
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(180, 208, 230);
+  background-color: rgb(255, 255, 255);
 }
 ul{
   display: flex;
@@ -15,6 +15,7 @@ header a{
   text-decoration: none;
   color: black;
 }
+  
 
   
 /*---------------------------layout-------------------------*/
@@ -24,15 +25,22 @@ header a{
 }
 
 header li:not(.logo){
-  padding: 15px;
+  padding: 20px;
 }
 .logo{
   vertical-align: middle;
+}
+/*debug*/
+.h-900{
+  height: 900px;
 }
 
 /*-------------------------- utilities----------------------*/
 .d-flex{
   display: flex;
+}
+.bg-blue{
+  background-color:rgb(180, 208, 230);;
 }
 
 
@@ -43,13 +51,18 @@ header li:not(.logo){
 
 
 /*-------------------------- content----------------------*/
+/*header*/
 header{
   justify-content: space-between;
   display: flex;
   background-color: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
 }
 .start{
-  background-color: rgb(17, 57, 235);
+  background-color: rgb(0, 97, 254);
   color: white;
   padding: 5px 10px;
   margin-right: 15px;
