@@ -9,10 +9,15 @@ body {
   background-color: rgb(255, 255, 255);
 }
 
-ul {
-  display: flex;
+ul{
   list-style-type: none;
 }
+
+header ul {
+  display: flex;
+}
+  
+
 
 header a {
   text-decoration: none;
@@ -116,6 +121,7 @@ header {
   top: 0;
   z-index: 1;
 }
+
 .logo {
   vertical-align: middle;
 }
@@ -156,26 +162,46 @@ header {
 .monthly-invoice .circle {
   border: 5px solid rgb(9, 66, 253);
 }
+
 /*4 colonne */
-.row{
+.row {
   flex-wrap: wrap;
   gap: 15px;
 }
-.col-33{
+
+.col-33 {
   width: calc(750px/3 - 15px);
+  border: 1px solid black;
 }
-.col-100{
+  
+  
+
+.col-100 {
   width: calc(100% - 15px);
+  border: 1px solid black;
 }
+
+   
+/*contenuto prima colonna*/
+.category{
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+
+
+
 
 
 /*----------------debug----------------------*/
 
-.h-800-orange{
+.h-800-orange {
   height: 800px;
   background-color: orange;
 }
-.h-150-orange{
+
+.h-150-orange {
   height: 150px;
   background-color: orange;
 }
