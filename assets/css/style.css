@@ -34,13 +34,15 @@ h2 {
   font-size: 1.8em;
   margin-bottom: 40px;
 }
-
+h3{
+  padding: 70px 0px 20px 0px;
+}
 
 p {
   margin-bottom: 20px;
 }
 .col-33 hr{
-  width: 30%;
+  width: 20%;
   margin: 40px auto 50px 0px;
 }
    
@@ -71,6 +73,10 @@ section {
   color: white;
   padding: 8px 10px;
   margin-right: 15px;
+  cursor: pointer;
+}
+.blue-button:hover{
+background-color: rgb(99, 148, 240);
 }
 
 /*-------------------------- utilities----------------------*/
@@ -81,10 +87,6 @@ section {
 .bg-blue {
   background-color: rgb(180, 208, 230);
   ;
-}
-
-.bg-orange {
-  background-color: orange;
 }
 
 .w-100 {
@@ -123,7 +125,7 @@ header {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 1;
+  z-index: 2;
 }
 
 .logo {
@@ -174,8 +176,10 @@ header {
 }
 
 .col-33 {
+  position: relative;
   width: calc(750px/3 - 15px);
-  border: 1px solid black;
+  border: 1px solid gray;
+
 }
   
   
@@ -183,15 +187,19 @@ header {
 
 .col-100 {
   width: calc(100% - 15px);
-  border: 1px solid black;
+  border: 1px solid gray;
 }
 
    
 /*contenuto prima colonna*/
 .category{
+  position: absolute;
+  width: 100%;
+  top: 0;
   text-align: center;
   padding: 10px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid gray;
+  z-index: 1;
 }
 .col-33 li{
   margin-bottom: 20px;
@@ -204,10 +212,6 @@ header {
 
 /*----------------debug----------------------*/
 
-.h-800-orange {
-  height: 800px;
-  background-color: orange;
-}
 
 .h-150-orange {
   height: 150px;
