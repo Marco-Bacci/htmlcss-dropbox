@@ -94,4 +94,9 @@ span{
 }
 .download{
   font-size: 3em;
+  padding-top: 40px;
+}
+.relative{
+  position: relative;
+  top: 80px;
 }
