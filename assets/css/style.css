@@ -17,8 +17,6 @@ header ul {
   display: flex;
 }
 
-
-
 header a {
   text-decoration: none;
   color: black;
@@ -36,7 +34,7 @@ h2 {
 }
 
 h3 {
-  padding: 70px 0px 20px 0px;
+  padding: 30px 0px;
 }
 
 p {
@@ -47,7 +45,6 @@ p {
   width: 20%;
   margin: 40px auto 50px 0px;
 }
-
 
 /*----------------------------------------------*/
 .container {
@@ -133,11 +130,6 @@ footer {
   margin-right: 50px;
 }
 
-.grey-border {
-  border: 1px solid lightgray;
-}
-
-
 
 /*-------------------------- content----------------------*/
 /*header*/
@@ -198,13 +190,10 @@ header {
   gap: 15px;
 }
 
+
 .col-33 {
-  position: relative;
   width: calc(750px/3 - 15px);
 }
-
-
-
 
 .col-100 {
   position: relative;
@@ -212,17 +201,23 @@ header {
   border: 1px solid lightgrey;
 }
 
+.bordered .col-33 {
+  border: 1px solid lightgray;
+}
+
+/*.info {
+  padding: 0px 10px;
+}*/
+
 
 /*contenuto prima colonna*/
 .category {
-  position: absolute;
-  width: 100%;
-  top: 0;
   text-align: center;
   padding: 10px;
   border-bottom: 1px solid lightgray;
-  z-index: 1;
 }
+
+
 
 .col-33 li {
   margin-bottom: 20px;
@@ -252,13 +247,4 @@ footer li:first-child {
 footer hr {
   margin: 60px 0px 30px 0px;
   width: 85px;
-}
-  
-
-
-
-/*----------------debug----------------------*/
-.h-500-orange{
-height: 500px;
-background-color: orange;
 }
