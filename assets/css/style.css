@@ -26,7 +26,7 @@ h1 {
   font-size: 4em;
   font-weight: 800;
 }
-  
+
 
 h2 {
   font-size: 1.8em;
@@ -34,7 +34,7 @@ h2 {
 }
 
 h3 {
-  padding: 30px 0px;
+  padding-bottom: 30px;
   font-weight: 700;
 }
 
@@ -81,8 +81,8 @@ footer {
   padding: 8px 10px;
   cursor: pointer;
 }
-  
-.bordered [class*="fa-check"]{
+
+.bordered [class*="fa-check"] {
   color: blue;
 }
 
@@ -103,15 +103,19 @@ footer {
 .w-100 {
   width: 100%;
 }
-.pd-20{
+
+.pd-20 {
   padding: 20px;
 }
+
 .mb-20 {
   margin-bottom: 20px;
 }
-.mb-30{
+
+.mb-30 {
   margin-bottom: 30px;
 }
+
 .mb-50 {
   margin-bottom: 50px;
 }
@@ -125,11 +129,11 @@ footer {
   display: inline-block;
 }
 
-.justify-between{
+.justify-between {
   justify-content: space-between;
-  }
+}
 
-.align-center{
+.align-center {
   align-items: center;
 }
 
@@ -168,15 +172,17 @@ header {
 .text-col {
   width: 30%;
 }
- 
+
 .img-col {
   width: 70%;
 }
-.partner .button{
+
+.partner .button {
   border: 1px solid black;
   background-color: white;
   color: black;
 }
+
 .download {
   font-size: 3em;
   padding-top: 40px;
@@ -218,29 +224,32 @@ header {
 .col-100 {
   width: calc(100% - 50px);
 }
- 
-.bordered [class*="col"]{
+
+.bordered [class*="col"] {
   border: 1px solid lightgray;
 }
-.key-points li:first-child{
+
+.key-points li:first-child {
   font-weight: bold;
   font-size: 0.9em;
 }
 
-.info{
+.info {
   padding: 0px 20px;
 }
-.bordered .button{
+
+.bordered .button {
   width: 240px;
   height: 40px;
   text-align: center;
 }
-  
+
 
 /*contenuto prima colonna*/
 .category {
   text-align: center;
   padding: 10px;
+  margin-bottom: 30px;
   border-bottom: 1px solid lightgray;
 }
 
