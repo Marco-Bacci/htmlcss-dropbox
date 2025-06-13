@@ -199,15 +199,15 @@ header {
   width: calc(100%/3 - 50px);
 }
 
-.col-100 {
-  position: relative;
-  width: calc(100% - 50px);
-  border: 1px solid lightgrey;
-}
 
-.bordered .col-33 {
+.col-100 {
+  width: calc(100% - 50px);
+}
+ 
+.bordered [class*="col"]{
   border: 1px solid lightgray;
 }
+
 .info{
   padding: 0px 20px;
 }
