@@ -82,6 +82,9 @@ footer {
   margin-right: 15px;
   cursor: pointer;
 }
+.bordered [class*="fa-check"]{
+  color: blue;
+}
 
 .blue-button:hover {
   background-color: rgb(99, 148, 240);
@@ -188,7 +191,7 @@ header {
   border: 5px solid rgb(9, 66, 253);
 }
 
-/*4 colonne */
+/*1 riga e 4 colonne */
 .row {
   flex-wrap: wrap;
   gap: 50px;
@@ -207,15 +210,20 @@ header {
 .bordered [class*="col"]{
   border: 1px solid lightgray;
 }
+.key-points li:first-child{
+  font-weight: bold;
+  font-size: 0.9em;
+}
 
 .info{
   padding: 0px 20px;
 }
-
-/*.info {
-  padding: 0px 10px;
-}*/
-
+.bordered .button{
+  width: 240px;
+  height: 40px;
+  text-align: center;
+}
+  
 
 /*contenuto prima colonna*/
 .category {
