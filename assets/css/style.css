@@ -287,8 +287,29 @@ header {
 .col-33 img {
   width: 100%;
 }
+/*----------------dropdown----------------*/
+.dropwdon{
+  background-color: lightblue;
+}
+.dropdown-container{
+  display:flex;
+  max-width: 900px;
+  margin: 0 auto 0 300px;
+  gap: 20px;
+}
+.dropdown-col{
+  width: calc(100%/3 - 20px);
+}
 
-/*footer*/
+/*-----------------debug-----------------*/
+.orange{
+  background-color: orange;
+  height: 400px;
+}
+
+
+
+/*-----------------footer-----------------*/
 .footer-col {
   width: calc(100%/5);
 }
