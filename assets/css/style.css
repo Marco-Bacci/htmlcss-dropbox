@@ -296,7 +296,7 @@ header {
 
 /*----------------dropdown----------------*/
 .dropdown{
-  display: none;
+  /*display: none;*/
   position: absolute;
   top:65px;
   left:312px;
@@ -325,6 +325,13 @@ header {
 }
 .drop-menu .dropdown{
   display: none;
+}
+.dropdown li:hover{
+  font-size: 1.2em;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(161, 209, 245);
+  cursor: pointer;
 }
 
 
