@@ -36,7 +36,7 @@ h2 {
 h3 {
   font-weight: 700;
 }
-header a{
+headera{
   text-decoration: none;
   color: inherit;
 }
@@ -101,7 +101,7 @@ footer {
   background-color: rgb(142, 179, 247);
 }
 a:hover{
-  color:rgb(142, 179, 247) ;
+  color:rgb(47, 47, 248) ;
 }
 
 .bordered [class*="fa-check"] {
