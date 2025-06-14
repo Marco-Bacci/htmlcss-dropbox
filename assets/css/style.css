@@ -36,7 +36,8 @@ h2 {
 h3 {
   font-weight: 700;
 }
-header a{
+
+header a {
   text-decoration: none;
   color: inherit;
 }
@@ -101,8 +102,9 @@ footer {
 .button:hover {
   background-color: rgb(142, 179, 247);
 }
-a:hover{
-  color:rgb(47, 47, 248) ;
+
+a:hover {
+  color: rgb(47, 47, 248);
 }
 
 .bordered [class*="fa-check"] {
@@ -268,6 +270,7 @@ header {
 
 
 
+
 /*contenuto prima colonna*/
 .category {
   text-align: center;
@@ -287,25 +290,33 @@ header {
 .col-33 img {
   width: 100%;
 }
+
 /*----------------dropdown----------------*/
-.dropwdon{
-  background-color: lightblue;
+.dropdown {
+  background-color: rgb(9, 99, 129);
 }
-.dropdown-container{
-  display:flex;
+
+.dropdown-container {
+  display: flex;
   max-width: 900px;
-  margin: 0 auto 0 300px;
+  border-radius: 10px;
+  margin: 0px auto;
   gap: 20px;
 }
-.dropdown-col{
+
+.dropdown-col {
   width: calc(100%/3 - 20px);
 }
 
-/*-----------------debug-----------------*/
-.orange{
-  background-color: orange;
-  height: 400px;
+.dropdown-col ul {
+  font-size: 1.5em;
+  padding: 30px;
 }
+
+.dropdown-col li {
+  margin: 20px 0;
+}
+
 
 
 
