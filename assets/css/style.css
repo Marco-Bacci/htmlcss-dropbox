@@ -120,6 +120,9 @@ a:hover {
   background-color: rgb(180, 208, 230);
   ;
 }
+.bg-white{
+  background-color: white;
+}
 
 .w-100 {
   width: 100%;
@@ -292,10 +295,13 @@ header {
 }
 
 /*----------------dropdown----------------*/
-.dropdown {
-  background-color: rgb(9, 99, 129);
+.dropdown{
+  position: absolute;
+  top: 65px;
+  left:312px;
+  z-index: 1;
+  box-shadow: 10px 10px 20px rgb(9, 9, 56);
 }
-
 .dropdown-container {
   display: flex;
   max-width: 900px;
