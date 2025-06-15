@@ -60,6 +60,7 @@ header a {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  position: relative;
 }
 
 .sm-container {
@@ -110,6 +111,11 @@ a:hover {
 .bordered [class*="fa-check"] {
   color: blue;
 }
+
+.drop-menu:hover .dropdown{
+  display: block;
+}
+
 
 /*-------------------------- utilities----------------------*/
 .d-flex {
@@ -295,9 +301,11 @@ header {
 }
 
 /*----------------dropdown----------------*/
+
 .dropdown{
   /*display: none;*/
   position: absolute;
+  height: 450px;
   top:65px;
   left:312px;
   z-index: 1;
