@@ -332,7 +332,7 @@ header{
   background-color: rgb(161, 209, 245);
   cursor: pointer;
 }
-.drop-menu:hover .dropdown{
+header .drop-menu:hover .dropdown{
   display: block;
 }
 
