@@ -13,11 +13,11 @@ ul {
   list-style-type: none;
 }
 
-header ul {
+.top-bar ul {
   display: flex;
 }
 
-header a {
+.top-bar a {
   text-decoration: none;
   color: black;
 }
@@ -37,7 +37,7 @@ h3 {
   font-weight: 700;
 }
 
-header a {
+.top-bar a {
   text-decoration: none;
   color: inherit;
 }
@@ -186,7 +186,7 @@ a:hover {
 
 /*-------------------------- content----------------------*/
 /*header*/
-header {
+.top-bar {
   justify-content: space-between;
   display: flex;
   background-color: rgb(255, 255, 255);
@@ -301,13 +301,15 @@ header {
 }
 
 /*----------------dropdown----------------*/
-
+header{
+  position: relative;
+}
 .dropdown{
   /*display: none;*/
   position: absolute;
-  height: 450px;
-  top:65px;
-  left:312px;
+  width: 65%;
+  top: 65px;
+  left: 297px;  
   z-index: 1;
   box-shadow: 10px 10px 20px rgb(9, 9, 56);
 }
@@ -323,17 +325,6 @@ header {
   width: calc(100%/3 - 20px);
 }
 
-.dropdown-col ul {
-  font-size: 1.5em;
-  padding: 30px;
-}
-
-.dropdown-col li {
-  margin: 20px 0;
-}
-.drop-menu .dropdown{
-  display: none;
-}
 .dropdown li:hover{
   font-size: 1.2em;
   padding: 5px;
