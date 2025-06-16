@@ -305,7 +305,7 @@ header{
   position: relative;
 }
 .dropdown{
-  display: none;
+  /*display: none;*/
   position: absolute;
   width: 65%;
   top: 65px;
@@ -332,7 +332,7 @@ header{
   background-color: rgb(161, 209, 245);
   cursor: pointer;
 }
-header .drop-menu:hover .dropdown{
+.drop-menu:hover .dropdown{
   display: block;
 }
 
